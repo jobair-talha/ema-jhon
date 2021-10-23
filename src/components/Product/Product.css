@@ -1,0 +1,26 @@
+.product {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(114, 111, 111);
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+.product:last-child {
+  border-bottom: none;
+}
+.product-details {
+  padding-left: 10px;
+}
+.product button {
+  background-color: goldenrod;
+  border: 1px solid gray;
+  padding: 5px 8px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.product .icon {
+  margin-right: 5px;
+}

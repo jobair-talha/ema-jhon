@@ -1,0 +1,8 @@
+.user-feild {
+  padding: 15px 0;
+  background: rgb(32, 32, 32);
+  text-align: center;
+}
+.user-feild input {
+  width: 70%;
+}

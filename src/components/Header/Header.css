@@ -1,0 +1,27 @@
+header img {
+  height: 80px;
+  margin: 0 auto;
+  display: block;
+}
+nav {
+  background: #000;
+  color: #fff;
+}
+nav .nav__item {
+  color: #fff;
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+nav .nav__item:hover {
+  background: rgb(30, 30, 31);
+}
+
+nav .selected {
+  background: rgb(30, 30, 31);
+}
